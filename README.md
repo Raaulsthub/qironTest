@@ -8,7 +8,7 @@ Amazon Lex is a service used to build talking interfaces in any kind of applicat
 
 ## How does it Work
 
-
+A bot is built to fulfill a to be chosen quantity of intents. An intent is basically what the user want's the bot to answer or to perform. The Natural Lenguage Processing algorythims provided by amazon will work on recognizing an intent from a user input. For that to happen, we need to provide sample utterances for that intent, that is, sentences that will likely be used by the user on that intent, with a reasonable number of samples, the bot will be very precise on identifing an intent.
 
 ## Creating an account on Amazon AWS Services
 First of all, you will need to register on AWS Services Console, wich can be found in <a href="https://aws.amazon.com/pt/console/" target="_blank"> AWS Console </a>.
