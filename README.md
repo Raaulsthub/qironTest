@@ -4,7 +4,7 @@ This document shows how to create a AWS Lex BOT, this service will be integrated
 
 ## What is Lex 
 
-Amazon Lex is a service used to build talking interfaces in any kind of application using voice and text. He is used to feed Amazon Alexa, for example. This will be integrated to Qiron Robots due to it's capabilities and ease to administrate complex tasks and converstations.
+Amazon Lex is a service used to build talking interfaces in any kind of application using voice and text. The service is used to feed Amazon Alexa, for example. This will be integrated to Qiron Robots due to it's capabilities and ease to administrate complex tasks and converstations.
 
 ## How does it Work
 
