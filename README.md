@@ -38,6 +38,22 @@ AWS services recommend to not use your root account (the one you registered with
 ![image](https://user-images.githubusercontent.com/85199336/189990511-df502122-ad0f-4a16-9174-30628ec23533.png)
 
 
+### After giving it a self-explaining name, we can fill basic information
+
+![image](https://user-images.githubusercontent.com/85199336/189998312-f8efd533-9f2b-47e8-b23a-d9ae7b710c72.png)
+
+![image](https://user-images.githubusercontent.com/85199336/189998342-d29beacf-9dcf-494f-b09c-51939bc9a0bf.png)
+
+### Build
+
+![image](https://user-images.githubusercontent.com/85199336/189998432-184fe108-87f3-4e3d-8ffc-d33b12082d39.png)
 
 
+### Test
+
+![image](https://user-images.githubusercontent.com/85199336/189998554-2e353d93-036f-469a-962b-91c0c0dfecb9.png)
+
+
+
+### Save it
 
