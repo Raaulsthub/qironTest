@@ -23,5 +23,5 @@ AWS services recommend to not use your root account (the one you registered with
 
 First of all, we will be logging to the <a> Lex Console </a> and changing it to the old version. This can be done in the upper left region of the initial page.
 
-&nbsp; &nbsp; &nbsp; ![image](https://user-images.githubusercontent.com/85199336/189988423-2b153f1a-d74f-4ceb-92ac-7a119ad5c864.png)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![image](https://user-images.githubusercontent.com/85199336/189988423-2b153f1a-d74f-4ceb-92ac-7a119ad5c864.png)
 
