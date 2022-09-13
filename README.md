@@ -18,3 +18,10 @@ It all starts with a user input that represents the intent, "Beo, calculate a pe
 First of all, you will need to register on AWS Services Console, wich can be found <a href="https://aws.amazon.com/pt/console/" target="_blank">here</a>.
 
 AWS services recommend to not use your root account (the one you registered with), to improve the security of your projects, it is wise to use IAM users, the documentation for those can be found <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html">here</a>. This is also used when creating and communicating with bots by command line, wich will not be covered in this file, but it might be important for the ROS/Lex integration.
+
+## Creating the BOT
+
+First of all, we will be logging to the <a> Lex Console </a> and changing it to the old version. This can be done in the upper left region of the initial page.
+
+![image](https://user-images.githubusercontent.com/85199336/189988423-2b153f1a-d74f-4ceb-92ac-7a119ad5c864.png)
+
