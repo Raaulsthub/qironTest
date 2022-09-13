@@ -33,6 +33,10 @@ AWS services recommend to not use your root account (the one you registered with
 
 ![image](https://user-images.githubusercontent.com/85199336/189990093-56e758d0-e760-4d28-aefb-9cabdce3fe1d.png)
 
+### With the BOT created, we are ready to create our first intent
+
+![image](https://user-images.githubusercontent.com/85199336/189990511-df502122-ad0f-4a16-9174-30628ec23533.png)
+
 
 
 
