@@ -25,4 +25,6 @@ First of all, we will be logging to the <a> Lex Console </a> and changing it to 
 
 ![image](https://user-images.githubusercontent.com/85199336/189988423-2b153f1a-d74f-4ceb-92ac-7a119ad5c864.png)
 
-Thenm, will select the create button on the bots section ![image](https://user-images.githubusercontent.com/85199336/189989186-73424d62-0467-439a-99d0-1359cc0ded98.png)
+Then, will select the create button on the bots section
+
+![image](https://user-images.githubusercontent.com/85199336/189989186-73424d62-0467-439a-99d0-1359cc0ded98.png)
