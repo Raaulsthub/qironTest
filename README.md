@@ -56,5 +56,96 @@ AWS services recommend not to use your root account (the one you registered with
 
 ###  That's it. Your bot is now created. The next step is creating new intents and conversations, or even lambda functions to hook to your new intents fulfillment
 
+## Communication
 
+The communication with a lex bot works with .json formated files. The message the user sends is a .json or an audio/text that will be transformed into a .json, and the bot answer also is a .json, that can be transformed to text/audio. The following code is a .json file that defines the bot's answers.
 
+```
+{
+    "confirmationPrompt": {
+        "maxAttempts": 2, 
+        "messages": [
+            {
+                "content": "Okay, your {FlowerType} will be ready for pickup by {PickupTime} on {PickupDate}.  Does this sound okay?", 
+                "contentType": "PlainText"
+            }
+        ]
+    }, 
+    "name": "OrderFlowers", 
+    "checksum": "checksum", 
+    "version": "$LATEST", 
+    "rejectionStatement": {
+        "messages": [
+            {
+                "content": "Okay, I will not place your order.", 
+                "contentType": "PlainText"
+            }
+        ]
+    }, 
+    "createdDate": timestamp, 
+    "lastUpdatedDate": timestamp, 
+    "sampleUtterances": [
+        "I would like to pick up flowers", 
+        "I would like to order some flowers", 
+        "I want to order flowers"
+    ], 
+    "slots": [
+        {
+            "slotType": "AMAZON.TIME", 
+            "name": "PickupTime", 
+            "slotConstraint": "Required", 
+            "valueElicitationPrompt": {
+                "maxAttempts": 2, 
+                "messages": [
+                    {
+                        "content": "Pick up the {FlowerType} at what time on {PickupDate}?", 
+                        "contentType": "PlainText"
+                    }
+                ]
+            }, 
+            "priority": 3, 
+            "description": "The time to pick up the flowers"
+        }, 
+        {
+            "slotType": "FlowerTypes", 
+            "name": "FlowerType", 
+            "slotConstraint": "Required", 
+            "valueElicitationPrompt": {
+                "maxAttempts": 2, 
+                "messages": [
+                    {
+                        "content": "What type of flowers would you like to order?", 
+                        "contentType": "PlainText"
+                    }
+                ]
+            }, 
+            "priority": 1, 
+            "slotTypeVersion": "$LATEST", 
+            "sampleUtterances": [
+                "I would like to order {FlowerType}"
+            ], 
+            "description": "The type of flowers to pick up"
+        }, 
+        {
+            "slotType": "AMAZON.DATE", 
+            "name": "PickupDate", 
+            "slotConstraint": "Required", 
+            "valueElicitationPrompt": {
+                "maxAttempts": 2, 
+                "messages": [
+                    {
+                        "content": "What day do you want the {FlowerType} to be picked up?", 
+                        "contentType": "PlainText"
+                    }
+                ]
+            }, 
+            "priority": 2, 
+            "description": "The date to pick up the flowers"
+        }
+    ], 
+    "fulfillmentActivity": {
+        "type": "ReturnIntent"
+    }, 
+    "description": "Intent to order a bouquet of flowers for pick up"
+}
+```
