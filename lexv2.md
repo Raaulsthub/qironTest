@@ -63,10 +63,9 @@
 ## At the end, we can test our bot with audio or text
 ### The following test was done by audio
 
-![image](https://user-images.githubusercontent.com/85199336/192293937-ce695b69-51e7-4999-8f4b-af828a711d56.png)
+![image](https://user-images.githubusercontent.com/85199336/192294413-f82d129b-1934-442d-aa9d-3ac6ee1b4817.png)
 
-![image](https://user-images.githubusercontent.com/85199336/192294021-2f69b6ab-1fd8-4586-9677-f4347abac847.png)
+![image](https://user-images.githubusercontent.com/85199336/192294460-97d4fa92-564d-4101-b192-d69a637bad4f.png)
 
-![image](https://user-images.githubusercontent.com/85199336/192294283-d0dfb35d-8853-4f42-b6c6-8762c68f6d7e.png)
 
 
