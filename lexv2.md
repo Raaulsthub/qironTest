@@ -46,3 +46,27 @@
 
 ![image](https://user-images.githubusercontent.com/85199336/192291431-5724096a-9608-4a65-845d-09cca1584081.png)
 
+## Adding a new intent
+
+### First, in the left tab, we go to the Intents section
+
+![image](https://user-images.githubusercontent.com/85199336/192292490-202967f8-133c-4079-8de6-25873607e723.png)
+
+### Press the "Add intent" button, and then select "Add empty intent"
+
+![image](https://user-images.githubusercontent.com/85199336/192292753-5e679437-e6dc-42c3-9505-7f72773ddf79.png)
+
+### Then, we can fill the Intent just like we did previously
+
+![image](https://user-images.githubusercontent.com/85199336/192292967-a6e35fba-fd3e-4e99-9ef6-532462ed8405.png)
+
+## At the end, we can test our bot with audio or text
+### The following test was done by audio
+
+![image](https://user-images.githubusercontent.com/85199336/192293937-ce695b69-51e7-4999-8f4b-af828a711d56.png)
+
+![image](https://user-images.githubusercontent.com/85199336/192294021-2f69b6ab-1fd8-4586-9677-f4347abac847.png)
+
+![image](https://user-images.githubusercontent.com/85199336/192294283-d0dfb35d-8853-4f42-b6c6-8762c68f6d7e.png)
+
+
