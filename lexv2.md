@@ -1,5 +1,8 @@
 # CREATING A BOT WITH AWS LEX V2
 
+
+
+
 ## First, in the bots section, we press the "Create bot" button
 
 ![image](https://user-images.githubusercontent.com/85199336/192284231-79be25c3-924a-4b74-af0f-11293270f851.png)
