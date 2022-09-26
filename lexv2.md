@@ -9,7 +9,9 @@
 ![image](https://user-images.githubusercontent.com/85199336/192284690-49993e87-3d91-44e4-83de-5679a5c28780.png)
 ![image](https://user-images.githubusercontent.com/85199336/192284760-a88f4c3b-3964-45ea-bb79-1a33decd349f.png)
 
-## We can now press the "Next" button
+## We can now press the "Next" button and configure the language. Aws Lex V2 supports portuguese
+
+![image](https://user-images.githubusercontent.com/85199336/192291897-348a04c8-0800-408c-9a57-db59449d5016.png)
 
 ## We will now configure our first intent, as follows
 
