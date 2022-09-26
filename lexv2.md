@@ -1,4 +1,4 @@
-# CREATING A BOT WITH AWS LEX V2
+# Creating a bot with Amazon Lex V2
 
 
 
