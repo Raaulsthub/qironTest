@@ -25,7 +25,8 @@
   ![image](https://user-images.githubusercontent.com/85199336/198066859-74c70aed-d2b4-46d5-8206-c011f1b00f90.png)
   ![image](https://user-images.githubusercontent.com/85199336/198126812-4d9c092f-f71b-4fc1-bce4-1708edd990ba.png)
 ### 12. Now that you have created and deployed your bot, for connections, you can see the bot's id in the main page
-  ![Uploading image.png…]()
+  ![image](https://user-images.githubusercontent.com/85199336/198127440-f3fd4b1f-b682-489b-890c-6bb01cb8adb6.png)
+
 
 
   
