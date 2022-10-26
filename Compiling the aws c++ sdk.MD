@@ -8,8 +8,13 @@
   sudo apt-get install -y libcurl-dev
 #### 3. libssl
   sudo apt-get install -y libssl-dev
-
+  
 #### There can be one or more dependencies that you might not have, so, if the compilation points an error, just paste the output on the web, and you find a topic telling you what you are expected to have
+
+### The compilation requires about 14G of memory, if your machine does not contain enough, we should first allocate more swap space, if it does have enought, you can just ignore this part
+
+  
+
 
 ### Now, we create a build directory for your lib
 
