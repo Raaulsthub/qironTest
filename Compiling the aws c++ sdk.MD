@@ -21,13 +21,13 @@
   ![image](https://user-images.githubusercontent.com/85199336/198059137-2df4fb56-16bd-4751-ab2a-ee443784618f.png)
 #### Activating the swap file
   ![image](https://user-images.githubusercontent.com/85199336/198059325-c00ae2bc-6ce6-4656-81ce-fb676c1c0719.png)
-#### Verifying again
   ![image](https://user-images.githubusercontent.com/85199336/198059626-59248b83-fed0-4b61-8971-bdc2fa31f3b7.png)
-
-
-
-
-
+  ![image](https://user-images.githubusercontent.com/85199336/198059825-3a759e90-34e0-48ce-8e4c-01cf717fc4b1.png)
+#### To see if it worked, just paste the free -h command again
+#### If you want to make this swap file permanent (otherwise it will reset to no swap when the machine reboots)
+  ![image](https://user-images.githubusercontent.com/85199336/198060404-edf496ef-077e-4368-8c20-4e7d390c63cf.png)
+  ![image](https://user-images.githubusercontent.com/85199336/198060683-b8bcb7d2-cee3-4497-aed7-a21dfe94ef8a.png)
+  
 ### Now, we create a build directory for your lib
 
 #### 1. Go to a directory of your choice using the "cd" command
