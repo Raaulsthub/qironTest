@@ -18,5 +18,10 @@
   ![image](https://user-images.githubusercontent.com/85199336/198065829-f0a840eb-d80f-4d7e-830c-932941fd77bb.png)
 ### 9. Select "Create version"
   ![image](https://user-images.githubusercontent.com/85199336/198065977-264e1249-5604-4fc0-821a-b4ac1182e493.png)
+### 10. Provide a description for the version and press "Create"
+  ![image](https://user-images.githubusercontent.com/85199336/198066382-286af26a-faca-4d44-b2ac-62871378c9c1.png)
+  ![image](https://user-images.githubusercontent.com/85199336/198066470-647b907e-c0e0-4ec6-b476-35644c7dd6e9.png)
+### 11. You've created a new version, now just go to the bot alias and link it
+  ![image](https://user-images.githubusercontent.com/85199336/198066859-74c70aed-d2b4-46d5-8206-c011f1b00f90.png)
 
   
