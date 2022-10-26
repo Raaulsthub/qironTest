@@ -27,7 +27,7 @@
 #### If you want to make this swap file permanent (otherwise it will reset to no swap when the machine reboots)
   ![image](https://user-images.githubusercontent.com/85199336/198060404-edf496ef-077e-4368-8c20-4e7d390c63cf.png)
   ![image](https://user-images.githubusercontent.com/85199336/198060683-b8bcb7d2-cee3-4497-aed7-a21dfe94ef8a.png)
-  
+#### After the compiling, if you want to go back to your previous swap size, just delete the swap file you create and redo the process with your previous size (you did it with 10G)
 ### Now, we create a build directory for your lib
 
 #### 1. Go to a directory of your choice using the "cd" command
