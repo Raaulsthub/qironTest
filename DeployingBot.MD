@@ -14,6 +14,9 @@
   ![image](https://user-images.githubusercontent.com/85199336/198064093-834d90e7-9546-47c2-9612-2434bcf83b89.png)
 ### 7. Press the "Associate version with alias" button, and select the version of your bot this release should containm you might want that to be the "Draft Version"
   ![image](https://user-images.githubusercontent.com/85199336/198064993-41510417-f81f-40c2-999b-8c2584da87cd.png)
+### 8. If there is no versions apearing to you, that's because the bot don't have any. We need to create one. In the left tab, go to  "Bot versions"
+  ![image](https://user-images.githubusercontent.com/85199336/198065829-f0a840eb-d80f-4d7e-830c-932941fd77bb.png)
+### 9. Select "Create version"
+  ![image](https://user-images.githubusercontent.com/85199336/198065977-264e1249-5604-4fc0-821a-b4ac1182e493.png)
 
-  
   
