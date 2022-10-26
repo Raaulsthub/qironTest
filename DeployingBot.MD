@@ -23,5 +23,9 @@
   ![image](https://user-images.githubusercontent.com/85199336/198066470-647b907e-c0e0-4ec6-b476-35644c7dd6e9.png)
 ### 11. You've created a new version, now just go to the bot alias and link it
   ![image](https://user-images.githubusercontent.com/85199336/198066859-74c70aed-d2b4-46d5-8206-c011f1b00f90.png)
+  ![image](https://user-images.githubusercontent.com/85199336/198126812-4d9c092f-f71b-4fc1-bce4-1708edd990ba.png)
+### 12. Now that you have created and deployed your bot, for connections, you can see the bot's id in the main page
+  ![Uploading image.png…]()
+
 
   
