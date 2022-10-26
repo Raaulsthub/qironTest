@@ -12,7 +12,7 @@
   ![image](https://user-images.githubusercontent.com/85199336/198063887-4e395d1a-f869-4fa9-8785-ac697de70dd9.png)
 ### 6. You've deployed the bot, but it's not over, press the link with the name of your deployment
   ![image](https://user-images.githubusercontent.com/85199336/198064093-834d90e7-9546-47c2-9612-2434bcf83b89.png)
-### 7. Press the "Associate version with alias" button, and select the version of your bot this release should contain
+### 7. Press the "Associate version with alias" button, and select the version of your bot this release should containm you might want that to be the "Draft Version"
   ![image](https://user-images.githubusercontent.com/85199336/198064993-41510417-f81f-40c2-999b-8c2584da87cd.png)
 
   
