@@ -26,7 +26,7 @@
   ![image](https://user-images.githubusercontent.com/85199336/198126812-4d9c092f-f71b-4fc1-bce4-1708edd990ba.png)
 ### 12. Now that you have created and deployed your bot, for connections, you can see the bot's id in the main page
   ![image](https://user-images.githubusercontent.com/85199336/198127440-f3fd4b1f-b682-489b-890c-6bb01cb8adb6.png)
-
+### That's it! Now your bot is deployed for use!
 
 
   
