@@ -16,7 +16,14 @@
 #### Check whats the current swap partition
   ![image](https://user-images.githubusercontent.com/85199336/198057425-e727b28a-f4b0-49b3-a776-aeb177ebe5d6.png)
 #### Creating a new swap archive
-  
+  ![image](https://user-images.githubusercontent.com/85199336/198058873-46255596-945e-485b-bec3-c0a28c4f1d21.png)
+#### Verifying
+  ![image](https://user-images.githubusercontent.com/85199336/198059137-2df4fb56-16bd-4751-ab2a-ee443784618f.png)
+#### Activating the swap file
+  ![image](https://user-images.githubusercontent.com/85199336/198059325-c00ae2bc-6ce6-4656-81ce-fb676c1c0719.png)
+#### Verifying again
+  ![image](https://user-images.githubusercontent.com/85199336/198059626-59248b83-fed0-4b61-8971-bdc2fa31f3b7.png)
+
 
 
 
