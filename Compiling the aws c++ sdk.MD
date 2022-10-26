@@ -13,7 +13,7 @@
 
 ### The compilation requires about 14G of memory, if your machine does not contain enough, we should first allocate more swap space, if it does have enought, you can just ignore this part
 
-#### Check whats the current swap partition
+#### Check the size of the current swap partition
   ![image](https://user-images.githubusercontent.com/85199336/198057425-e727b28a-f4b0-49b3-a776-aeb177ebe5d6.png)
 #### Creating a new swap archive
   ![image](https://user-images.githubusercontent.com/85199336/198058873-46255596-945e-485b-bec3-c0a28c4f1d21.png)
