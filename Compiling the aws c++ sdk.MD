@@ -30,4 +30,11 @@
   mkdir build
 #### 6. Go to the build directory
   cd build
+#### 7. Configure cmake
+  cmake "path to the aws sdk directory" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH="path to the build directory (the one you are currently in"
+#### 8. Build
+  make
+#### 9. Install
+  make install
+
 
