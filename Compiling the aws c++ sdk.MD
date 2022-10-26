@@ -10,3 +10,11 @@
   sudo apt-get install -y libssl-dev
 
 #### There can be one or more dependencies that you might not have, so, if the compilation points an error, just paste the output on the web, and you find a topic telling you what you are expected to have
+
+### Now, we create a build directory for your lib
+
+#### 1. Go to a directory of your choice using the "cd" command
+#### 2. Create a directory
+  (sudo) mkdir aws
+#### 3. Clone the github aws sdk for c++ repository
+  git clone git@github.com:aws/aws-sdk-cpp.git
