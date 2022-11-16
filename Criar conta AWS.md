@@ -13,6 +13,13 @@
 
 ### Confirmar Email
 ![image](https://user-images.githubusercontent.com/85199336/202271910-50bb971d-32f1-4138-b9b8-5472e3731621.png)
+
 ### Senha
 ![image](https://user-images.githubusercontent.com/85199336/202272249-696cf58e-c1fc-4b7a-a8ad-7abf01695930.png)
+
+### Preencher info
+![image](https://user-images.githubusercontent.com/85199336/202273063-cebdb86f-45e7-49af-9400-342bb07894f3.png)
+
+### Preencher informações do Cartão
+![image](https://user-images.githubusercontent.com/85199336/202273810-cc0d0e4f-8937-4145-b799-eb550e94e658.png)
 
