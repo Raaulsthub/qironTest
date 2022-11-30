@@ -35,5 +35,14 @@ The API is divided in two. Amazon Image Rekognition and Amazon Video Rekognition
 Amazon Rekognition image operations are synchronous. The input and response are in JSON format. Amazon Rekognition Image operations analyze an input image that is in .jpg or .png image format. The image passed to an Amazon Rekognition Image operation can be stored in an Amazon S3 bucket.
 Amazon Rekognition Video can analyze videos stored in an Amazon S3 bucket and videos streamed through Amazon Kinesis Video Streams. Amazon Rekognition Video video operations are asynchronous. With Amazon Rekognition Video storage video operations, you start analysis by calling the start operation for the type of analysis you want. For example, to detect faces in a stored video, call StartFaceDetection. Once completed, Amazon Rekognition publishes the completion status to an Amazon SNS topic. To get the results of the analysis operation, you call the get operation for the type of analysis you requested—for example, GetFaceDetection.
 With Amazon Rekognition Video streaming video operations, you can search for faces stored in Amazon Rekognition Video collections or detect labels. Amazon Rekognition Video analyzes a Kinesis video stream.
-The analysis made can be stored or not.
 You can call Amazon Rekognition API operations using either the AWS SDK or directly by using HTTP. Unless you have a good reason not to, you should always use the AWS SDK.
+
+### STORAGE
+
+The analysis made can use aws storage or not.
+
+![image](https://user-images.githubusercontent.com/85199336/204829267-7abe417a-f440-464b-9cc1-b59809a90e9d.png)
+
+These are referred to as non-storage API operations because when you make the operation call, Amazon Rekognition does not persist any information discovered about the input image.
+
+![image](https://user-images.githubusercontent.com/85199336/204829656-5464e1a3-bd92-4423-9242-592b8fa22178.png)
