@@ -45,4 +45,5 @@ The analysis made can use aws storage or not.
 
 These are referred to as non-storage API operations because when you make the operation call, Amazon Rekognition does not persist any information discovered about the input image.
 
-![image](https://user-images.githubusercontent.com/85199336/204829656-5464e1a3-bd92-4423-9242-592b8fa22178.png)
+![image](https://user-images.githubusercontent.com/85199336/204830300-b989c7a2-30d0-4eac-9548-15eb179e714d.png)
+
