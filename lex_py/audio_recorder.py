@@ -5,7 +5,8 @@ CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
-
+TIME = 10
+AUDIO_PATH = './audio/output.wav'
 
 class AudioRecorder:
     def __init__(self):
@@ -14,8 +15,8 @@ class AudioRecorder:
                         rate=RATE, input=True, frames_per_buffer=CHUNK)
 
     def record_n_save(self):
-        frames= []
-        seconds= 3
+        frames = []
+        seconds = TIME
 
         print("recording")
 
@@ -29,11 +30,11 @@ class AudioRecorder:
         self.stream.close()
         self.p.terminate()
 
-        wf = wave.open("./audio/output.wav", 'wb')
+        wf = wave.open(AUDIO_PATH, 'wb')
         wf.setnchannels(CHANNELS)
         wf.setsampwidth(self.p.get_sample_size(FORMAT))
         wf.setframerate(RATE)
         wf.writeframes(b''.join(frames))
         wf.close()
-        return True
+        return AUDIO_PATH
 
