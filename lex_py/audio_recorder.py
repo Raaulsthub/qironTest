@@ -4,7 +4,7 @@ import wave
 CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
-RATE = 44100
+RATE = 16000
 TIME = 10
 AUDIO_PATH = './audio/output.wav'
 
@@ -38,3 +38,14 @@ class AudioRecorder:
         wf.close()
         return AUDIO_PATH
 
+
+
+
+
+def main():
+    recorder = AudioRecorder()
+    recorder.record_n_save()
+
+
+if __name__ == "__main__":
+    main()

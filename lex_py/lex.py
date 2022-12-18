@@ -5,6 +5,7 @@ import boto3
 from audio_recorder import AudioRecorder
 from time import sleep
 from audioplayer import AudioPlayer
+from scipy.io import wavfile
 
 
 
@@ -60,17 +61,20 @@ class LexSession:
             print("You can talk to the bot, you've got 10 seconds to say your message: ")
             recorder = AudioRecorder()
             audio_path = recorder.record_n_save()
-            if audio_path:
+            if audio_path and DEBUG:
                 print("Audio has been succefully recorded")
             else:
                 print("Failed recording audio")
 
+
+            samplerate, data = wavfile.read('./user_audio/output.wav')
+
             # request
-            response = self.make_audio_request(audio_path)
+            response = self.make_audio_request(self.bot_id, self.alias_id, self.locale_id, self.session_id, 'audio/l16', 'audio/mpeg', data)
 
             # playing it
             response["audioStream"] # this is where the audio file is located, still have to find a way to save it
-            AudioPlayer("./user_audio/audio.EXTENSAO").play(block=True) # playing the audio file
+            #AudioPlayer("./lex_audio/audio.EXTENSAO").play(block=True) # playing the audio file
 
 
             # still to find out a way to know when the intent is fulfilled
@@ -88,8 +92,8 @@ class LexSession:
 def main():
     # session id depends on the client aplication only, so it can be anything
     current_session = LexSession('ONJHYN234B', '2THUJUQ1TQ', 'pt_BR', '001')
-    # if current_session.text_conversation('qiron test bot'):
-        # print("CONVERSATION CAME TO AN END")
+    #if current_session.text_conversation('qiron test bot'):
+         #print("CONVERSATION CAME TO AN END")
     current_session.audio_conversation('qiron_test')
     current_session.kill_session()
 
